@@ -1,0 +1,21 @@
+{
+    "name": "DCastanera/Roles",
+    "description": "Roles and Permissions for Laravel",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Dan Castanera",
+            "email": "dcastanera@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "src"
+        ],
+        "psr-4": {
+            "DCastanera\\Roles\\": "src/"
+        }
+    }
+}
