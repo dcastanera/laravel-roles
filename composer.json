@@ -1,6 +1,6 @@
 {
-    "name": "DCastanera/Roles",
-    "description": "Roles and Permissions for Laravel",
+    "name": "dcastanera/roles",
+    "description": "Roles and Permissions for Laravel 5",
     "type": "library",
     "authors": [
         {
