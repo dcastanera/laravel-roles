@@ -17,7 +17,7 @@ Next we want to register the service provider in the /config/app.php file. Go to
 the array for providers and enter the following:
 
 
-    DCastanera\\Roles\\RolesServiceProvider::class,
+    DCastanera\Roles\RolesServiceProvider::class,
 
 
 Now we want to bring in the migrations by typing the following:
@@ -45,6 +45,6 @@ Then add the following inside the User class itself.
 
 
     use Roleable;
-    
+
 
 You should be all set after that.
