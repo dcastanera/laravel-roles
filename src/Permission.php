@@ -21,7 +21,7 @@ class Permission extends Model
 	 */
 	public function roles()
 	{
-		return $this->belongsToMany('App\Models\User\Role');
+		return $this->belongsToMany('DCastanera\Roles\Role');
 	}
 
 	/**
@@ -31,6 +31,6 @@ class Permission extends Model
 	 */
 	public function users()
 	{
-		return $this->belongsToMany('App\Models\User\User');
+		return $this->belongsToMany(config('auth.providers.users.model'));
 	}
 }
