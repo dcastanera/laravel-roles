@@ -97,5 +97,5 @@ role from the roles method as follows:
     // Next grab the role object
     $role = Role::find(1);
 
-    // Use the following to attach them.
+    // Use the following to detach them.
     $user->roles()->delete($role);

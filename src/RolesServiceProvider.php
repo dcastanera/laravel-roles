@@ -2,6 +2,7 @@
 
 namespace DCastanera\Roles;
 
+use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 
 class RolesServiceProvider extends ServiceProvider
@@ -27,7 +28,7 @@ class RolesServiceProvider extends ServiceProvider
          * This blade variable checks the role or array of roles to see if they
          * are attached to the current logged in user.
          */
-        \Blade::if('role', function ($role) {
+        Blade::if('role', function ($role) {
 			return \Auth::user()->has_role($role);
 		});
     }
