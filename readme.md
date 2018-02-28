@@ -1,5 +1,5 @@
 
-# Roles & Permissions
+# Laravel Roles & Permissions
 This package is designed to provide a very basic roles and permissions structure
 for Laravel 5.
 
@@ -8,7 +8,7 @@ To install this roles package, you must use Composer. Type the following in your
 Command Line Interface
 
 
-    composer require dcastanera/roles
+    composer require dcastanera/laravel-roles
 
 
 This should install all the roles files to your vendors directory.
