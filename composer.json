@@ -17,5 +17,12 @@
         "psr-4": {
             "DCastanera\\Roles\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DCastanera\\Roles\\RolesServiceProvider"
+            ]
+        }
     }
 }
